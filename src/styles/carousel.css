@@ -1,0 +1,31 @@
+/* carousel custom */
+#header-carousel{
+    margin-bottom: 10px;
+}
+
+.carousel-item img {
+    max-height: 600px;
+    object-fit: cover;
+}
+  
+.carousel-caption {
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 782px)  {
+    .carousel-item img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 420px)  {
+    .carousel-item img {
+        height: 400px;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,143 @@
+
+/* primary */
+:root, [data-bs-theme="light"]{
+  
+  --text-color: #1d1d1d;
+  --bg-color: #e3e6f0;
+  --bs-primary: #9EC5FE; 
+  --bs-secondary: #485F77; 
+  --bs-tertiary: #E3F0E7; 
+  --bs-body-bg: #FFFFFF; 
+  --bs-body-color: #021626; 
+}
+
+[data-bs-theme="dark"] {
+  
+  --text-color: #ffffff;
+  --bg-color: #021626;
+  --bs-primary: #021626;
+  --bs-secondary: #485F77;
+  --bs-tertiary: #E5E3E4;
+  --bs-body-bg: #032830;
+  --bs-body-color: #FFFFFF;
+}
+
+/* background */
+:root,[data-bs-theme="light"] {
+  --bs-body-bg: #E3F0E7;  /*utama */
+  --bs-card-bg: #FFFFFF;  /*kartu */
+  --bs-modal-bg: #FFFFFF; /* modal */
+  --bs-nav-bg: #9EC5FE;   /* navbar */
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-bg: #021626;
+  --bs-card-bg: #032830;
+  --bs-modal-bg: #485F77;
+  --bs-nav-bg: #021626;
+}
+
+/* teks/tipograpi */
+:root, [data-bs-theme="light"] {
+  --bs-body-color: #021626;  /*  teks utama */
+  --bs-heading-color: #021626; /*  heading */
+  --bs-link-color: #032830; /*  link */
+  --bs-link-hover-color: #021626; /* link hover */
+}
+
+[data-bs-theme="dark"] {
+  --bs-body-color: #FFFFFF;
+  --bs-heading-color: #E5E3E4;
+  --bs-link-color: #9EC5FE;
+  --bs-link-hover-color: #E3F0E7;
+}
+
+/* border & shadow*/
+:root, [data-bs-theme="light"] {
+  --bs-border-color: #485F77;  /*  border */
+  --bs-box-shadow: rgba(0, 0, 0, 0.15); /*  shadow */
+}
+
+[data-bs-theme="dark"] {
+  --bs-border-color: #E5E3E4;
+  --bs-box-shadow: rgba(255, 255, 255, 0.1);
+}
+
+/* btn */
+
+/* primer */
+:root, .btn-primary {
+  --btn-primary-bg: #9EC5FE;
+  --btn-primary-text: #021626;
+  --btn-primary-hover-bg: #485F77;
+  --btn-primary-hover-text: #FFFFFF;
+  --btn-primary-border: #7AA6E0;
+  --btn-primary-shadow: rgba(122, 166, 224, 0.3);
+}
+
+[data-bs-theme="dark"] .btn-primary {
+  --btn-primary-bg: #032830;
+  --btn-primary-text: #FFFFFF;
+  --btn-primary-hover-bg: #485F77;
+  --btn-primary-hover-text: #E5E3E4;
+  --btn-primary-border: #064A56;
+  --btn-primary-shadow: rgba(3, 40, 48, 0.5);
+}
+
+/* sekunder*/
+:root,
+[data-bs-theme="light"] {
+  --btn-secondary-bg: #E5E3E4;
+  --btn-secondary-text: #303030;
+  --btn-secondary-hover-bg: #6C757D;
+  --btn-secondary-hover-text: #FFFFFF;
+  --btn-secondary-border: #D1D1D1;
+  --btn-secondary-shadow: rgba(108, 117, 125, 0.3);
+}
+
+[data-bs-theme="dark"] {
+  --btn-secondary-bg: #3A4046;
+  --btn-secondary-text: #E5E3E4;
+  --btn-secondary-hover-bg: #4F585F;
+  --btn-secondary-hover-text: #FFFFFF;
+  --btn-secondary-border: #4A5258;
+  --btn-secondary-shadow: rgba(58, 64, 70, 0.5);
+}
+
+/* nav btn*/
+:root {
+  --navbar-bg: rgba(248, 249, 250, 0.875);
+  --offcanvas-bg: rgb(248, 249, 250) !important;
+  --navbar-btn-orange: #FF6D33;
+  --navbar-btn-text: #333;
+  --navbar-btn-hover: #FF8533;
+  --dropdown-bg: #FFFFFF;
+  --dropdown-text: #212529;
+}
+
+[data-bs-theme="dark"] {
+  --navbar-bg: rgba(33, 37, 41, 0.888);
+  --offcanvas-bg: rgb(33, 37, 41) !important;
+  --navbar-btn-orange: #FF7F50;
+  --navbar-btn-text: #F0F0F0;
+  --navbar-btn-hover: #FFA07A;
+  --dropdown-bg: #212529;
+  --dropdown-text: #F0F0F0;
+}
+
+
+/* tags berita */
+
+:root, [data-bs-theme="light"] {
+  --tag-bg: #eef0f3;
+  --tag-border: #e9ecef;
+  --tag-hover-bg: #e2e6ea;
+  --tag-hover-text: #212529;
+}
+
+[data-bs-theme="dark"] {
+  --tag-bg: #2d2d2d;
+  --tag-border: #444444;
+  --tag-hover-bg: #3a3a3a;
+  --tag-hover-text: #F0F0F0;
+}
