@@ -166,6 +166,10 @@ body {
   }
   
   /* Dropdown kusus */
+.navbar-nav{
+  --bs-scroll-height: 1000px;
+}
+
   .navbar .dropdown-toggle {
     position: relative;
     display: flex;
@@ -238,7 +242,7 @@ body {
 
     .offcanvas .dropdown-item {
         padding-left: 30px;
-        color: white;
+        color: black;
     }
 
     .offcanvas .dropdown-toggle::after {
