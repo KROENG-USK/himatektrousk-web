@@ -20,7 +20,7 @@ function Header() {
                         </div>
                         <div className="offcanvas-body">
                             {/* Add menu items here */}
-                            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style={{"--bs-scroll-height": "700px"}}>
+                            <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                                 <li className="nav-item mx-2">
                                     <a href="#" aria-current="page" className="nav-link active">Home</a>
                                 </li>
